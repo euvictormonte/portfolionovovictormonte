@@ -55,7 +55,7 @@
  <div class="flt rv"><button class="on" data-f="all">Todos</button><button data-f="grafico">Design Gráfico</button><button data-f="motion">Motion</button><button data-f="uiux">UI/UX</button><button data-f="saas">SaaS</button></div>
  <div class="grid">
   <a class="proj rv" data-c="grafico" href="#"><div class="ph">[Projeto 1] Design Gráfico</div><div class="m">[Projeto 1] Design Gráfico<div class="chips"><span>Design Gráfico</span><span>Identidade Visual</span></div></div></a>
-  <a class="proj rv" data-c="motion" href="#"><div class="ph">[Projeto 2] Motion</div><div class="m">[Projeto 2] Motion<div class="chips"><span>Motion Design</span><span>Divulgação</span></div></div></a>
+  <a class="proj rv" data-c="motion" href="#" data-full="assets/projeto-motion-poster.webp" data-video="assets/projeto-motion.mp4" data-title="Mercadinho do Zé — Cena 1 (WhatsApp)" aria-haspopup="dialog"><div class="ph"><video src="assets/projeto-motion-preview.mp4" poster="assets/projeto-motion-poster.webp" muted loop playsinline preload="metadata" aria-label="Prévia da animação Mercadinho do Zé, Cena 1"></video></div><div class="m">Mercadinho do Zé — Cena 1 (WhatsApp)<div class="chips"><span>Motion Design</span><span>Divulgação</span></div></div></a>
   <a class="proj rv" data-c="uiux" href="#" data-full="assets/projeto-app-doacao.webp" data-title="App de doação de sangue — Telas UI/UX" aria-haspopup="dialog"><div class="ph"><img src="assets/projeto-app-doacao-thumb.webp" alt="Telas do app de doação de sangue: início, indicação, perfil, mapa, campanhas e detalhes da campanha" width="1000" height="1455" loading="lazy" decoding="async"></div><div class="m">App de doação de sangue — Telas UI/UX<div class="chips"><span>UI/UX</span><span>Mobile</span></div></div></a>
   <a class="proj rv" data-c="saas" href="#" data-full="assets/projeto-agenda-cortes.webp" data-title="Agenda Cortes — Landing page" aria-haspopup="dialog"><div class="ph"><img src="assets/projeto-agenda-cortes-thumb.webp" alt="Prévia da landing page do Agenda Cortes" width="1000" height="2973" loading="lazy" decoding="async"></div><div class="m">Agenda Cortes — Landing page<div class="chips"><span>Landing Page</span><span>SaaS</span></div></div></a>
  </div>
@@ -111,7 +111,7 @@ Cal.config.forwardQueryParams = true;
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lb-t" aria-hidden="true">
  <div class="lb-w">
   <header class="lb-h"><div class="lb-meta"><b class="lb-t" id="lb-t"></b><div class="chips lb-chips"></div></div><button class="lb-x" type="button" aria-label="Fechar"><i></i><i></i></button></header>
-  <div class="lb-sc" tabindex="0" aria-label="Página completa do projeto. Role para ver tudo."><img alt=""></div>
+  <div class="lb-sc" tabindex="0" aria-label="Página completa do projeto. Role para ver tudo."><img alt=""><video class="lb-v" controls playsinline preload="none" hidden></video></div>
   <div class="lb-hint" aria-hidden="true">Role para ver a página inteira</div>
  </div>
 </div>
